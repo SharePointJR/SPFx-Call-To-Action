@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "call-to-action-button-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/callToActionButton/CallToActionButtonWebPart.js",
+          "manifest": "./src/webparts/callToActionButton/CallToActionButtonWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CallToActionButtonWebPartStrings": "lib/webparts/callToActionButton/loc/{locale}.js"
+  }
+}
